@@ -1,0 +1,10 @@
+Host stunect*
+    PermitLocalCommand yes
+    DynamicForward 1080
+    StrictHostKeyChecking no
+    ServerAliveInterval 10
+    TCPKeepAlive yes
+
+Host stunect-start
+    HostName 127.0.0.1
+    Port 1954
